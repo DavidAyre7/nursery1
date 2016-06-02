@@ -1045,6 +1045,7 @@
         for (posy = 0; posy < 200; posy+=20) { 
           window.scrollTo(0,posy);
           parallax();
+          big_image.hide(0).show(0);
           alert("Positions :"+"  "+$(window).scrollTop()+"  "+big_image.css('top'));
         }
         alert("End of loop");
