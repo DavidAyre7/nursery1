@@ -1042,17 +1042,27 @@
         /* automate scroll */
         var posy;
         big_image = $('.parallax-image').find('img');
-        for (posy = 0; posy < 200; posy+=20) { 
+/*        for (posy = 0; posy < 200; posy+=20) { 
           window.scrollTo(0,posy);
           parallax();
           big_image.hide().show(0);
           alert("Positions :"+"  "+$(window).scrollTop()+"  "+big_image.css('top'));
         }
         alert("End of loop");
+*/
         /*var current_scroll = $(this).scrollTop();
             
             oVal = ($(window).scrollTop() / 3); 
             big_image.css('top',oVal);*/
+        element.addEventListener("touchstart", touchStart, false);
+
+        function touchStart(event) {
+          posy++;
+          window.scrollTo(0,posy);
+          parallax();
+        }
+ 
+
 
         
     </script>
