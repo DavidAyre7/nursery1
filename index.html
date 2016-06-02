@@ -1057,6 +1057,7 @@
         element.addEventListener("touchstart", touchStart, false);
 
         function touchStart(event) {
+          alert('TouchStart event');
           posy++;
           window.scrollTo(0,posy);
           parallax();
