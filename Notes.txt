@@ -12,6 +12,6 @@ Speculation : problem may be caused by several overlapping functions, all causin
 Change to ndtmagazine image and see what happens
 
 Index05.html Jitters; as 02 but replace h2.jpg with ndt8.jpg : image does not change problem
-Index06.html ????; as 02 but remove "Lap & Bounds Day Nursery" overlay
+Index06.html Better but still jitters slightly; as 02 but remove "Lap & Bounds Day Nursery" overlay
 
 
