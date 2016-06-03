@@ -1,5 +1,17 @@
 Index01.html Jitters; full file
-Index02.html Jitters; simpler, but still with JavaScript
-Index03.html Smooth scrolling; no JavaScript
+Index02.html Jitters; as 01 but simpler HTML, still with JavaScript
+Index03.html Smooth scrolling; as 02 but no JavaScript at all
+Index04.html Smooth scrolling; as 02 but no parallax
+
+Based on tests so far, the problem is associated with the load caused by parallax
+Question : why does this not happen with ndtmagazine?
+Speculation : problem may be caused by several overlapping functions, all causing high processor load
+    1) Parallax
+    2) In nursery there is a partially transparent area overlayed on top of the image and moving independently
+    3) In nirsery there are several logos overlayed on top of the image and moving independently
+Change to ndtmagazine image and see what happens
+
+Index05.html Jitters; as 02 but replace h2.jpg with ndt8.jpg : image does not change problem
+Index06.html ????; as 02 but remove "Lap & Bounds Day Nursery" overlay
 
 
