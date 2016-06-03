@@ -1,0 +1,5 @@
+Index01.html Jitters; full file
+Index02.html Jitters; simpler, but still with JavaScript
+Index03.html Smooth scrolling; no JavaScript
+
+
